@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 240" role="img" aria-label="we are twist labs">
+  <title>we are twist labs</title>
+  <style>
+    text {
+      font-family: 'Apple Symbols', 'STIX Two Math', 'Cambria Math', 'Noto Sans Math', 'Segoe UI Symbol', serif;
+      font-size: 104px;
+    }
+    .fg   { fill: #2563eb; }
+    .sh   { fill: #ff2d9b; }
+    .glow { fill: #ff2d9b; }
+    .hide { fill: transparent; }
+    @media (prefers-color-scheme: dark) {
+      .fg   { fill: #5cc8ff; }
+      .sh   { fill: #ff5fd2; }
+      .glow { fill: #ff69d6; }
+    }
+  </style>
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <text class="glow" x="560" y="158" text-anchor="middle" filter="url(#glow)" opacity="0.5" fill="#ff2d9b"><tspan class="hide">𝖜𝖊 𝖆𝖗𝖊 </tspan>𝖙𝖜𝖎𝖘𝖙 𝖑𝖆𝖇𝖘</text>
+
+  <text class="sh" x="560" y="158" text-anchor="middle" transform="translate(3,3)" fill="#ff2d9b"><tspan class="hide">𝖜𝖊 𝖆𝖗𝖊 </tspan>𝖙𝖜𝖎𝖘𝖙 𝖑𝖆𝖇𝖘</text>
+
+  <text class="fg" x="560" y="158" text-anchor="middle" fill="#2563eb">𝖜𝖊 𝖆𝖗𝖊 𝖙𝖜𝖎𝖘𝖙 𝖑𝖆𝖇𝖘</text>
+</svg>
